@@ -1,0 +1,46 @@
+[
+	{
+        "difficulty" : 1,
+        "points" : 1,
+        "duration" : 60,
+		"words" : ["array", "analog", "app", "backup","binary","bit","bitmap","bug",
+					"cache","capslock","cd",
+					"data","delete","disk","debug",
+					"email","enter","emoticon",
+					"file", "finder","firewall","Information","folder","format",
+					"hack","host","html", "icon","inbox",
+					"java", "Network", "Operation","key", "kernel",
+					"link","logic","laser","laptop",
+					"macro", "media","mouse","memory","monitor", "net","node",
+					"online","output","page","path","pirate","queue", "ram","root"]
+	},
+	{
+        "difficulty" : 2,
+        "points" : 2,
+        "duration" : 50,
+		"words" : ["Application","algorithm","broadband","buffer","browser","byte",
+					"client","computer","configure","cookie","cyberspace","cybercrime",
+					"desktop","decompress","domain","download","dynamic",
+					"encryption","exabyte", "flowchart","flashdrive","freeware",
+					"gigabyte","graphics", "hyperlink","hypertext","hardware",
+					"iteration","internet","integer","joystick","Sublime",
+					"keyboard", "keyword", "linux","lurking",
+					"mainframe","macintosh","motherboard","multimedia",
+					"operating","offline", "password","phishing","podcast","process",
+					"programmer","qwerty", "resolution","screenshot"]
+	},
+	{
+		"difficulty" : 3,
+        "points" : 3,
+        "duration" : 40,
+		"words" : ["www","virus","spyware","trojan","worm","reboot","captcha","spammer",
+					"supercomputer","syntax","template","toolbar","typeface","webmaster",
+					"workstation","processor","wireless","xml",
+					"barebones","bricking","brouter","chromebook","coaxial","compact",
+					"degauss","diode","headphones","hdmi","microphone","multiprocessing",
+					"nothbridge","overlocking","peripheral","southbridge","trinitron",
+					"thermistor", "touchscreen","trackball","transistor","volume","webcame",
+					"malbolge", "whitespace","javascript","phyton","elixir","clojure","dashboard",
+					"ascii","windows"]
+	}
+]

@@ -1,0 +1,379 @@
+
+body.activities {
+    font-family: 'Raleway', sans-serif;
+
+
+}
+ 
+#picact{
+    background-image: url(../../images/games/gamebg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+    margin-right: -20px;
+    margin-left: -20px;
+    background-position: center;
+    position: relative;
+
+
+}
+
+#picact .title{
+  padding: 110px;
+  font-size: 3em;
+  font-weight: 900;
+  position: relative;
+  z-index: 3;
+  padding-left: 0;
+  padding-bottom: 150px;
+}
+
+#picact .title span{
+  color: #fff;
+}
+
+
+.wrapper {
+	max-width: 100%;
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	padding: 5%;
+  height: 100%;
+  z-index: 4;
+  position: relative;
+  
+}
+
+h1 {
+  color: white;
+  font-family: 'Garamond';
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h1 + p {
+	margin-bottom: 5%;
+  color: white;
+  font-family: 'Courier New';
+  font-size: 30px;
+
+}
+
+.scoreWrap {float: left;}
+.timeWrap {float: right;}
+
+.outerWrap:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*.bg {
+	background-color: #04AF71;*/
+/* } */
+
+#gamesinte button {
+   border: none;
+  background-color: #FF7373;
+  box-shadow: 0px 5px 0px 0px #CE4646;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 15px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#gamesinte .start {
+  border: none;
+  background-color: #fff;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 30px;
+  text-decoration: none;
+  margin: 0px;
+  color: black;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: none;
+
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    padding: 21px;
+    background: none;
+    border: none;
+}
+
+.custom-select select {
+    width: 200px;
+    border: none;
+    padding: 5px;
+    margin: auto;
+}
+
+
+button:active:not(.slick-arrow) {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.scoreWrap p, .scoreWrap span, .timeWrap p, .timeWrap span {
+    font-size: 30px;
+    color: #000;
+}
+
+.wordsWrap {
+	margin-top: 50px;
+}
+
+.words span{
+  font-size: 75px;
+  color: #ffffff; 
+  text-transform: uppercase;
+}
+
+.words span.correct{
+  color: #12f4ff;
+}
+.words span.game-over-text{
+  font-size: 43px;
+  font-weight: 600;
+  color: #ff7373;
+}
+
+.box-clickable{
+  cursor: pointer;
+  padding: 10px;
+}
+
+
+/*#acti{
+  max-width: 1000px;
+  margin: auto;
+  width: 300%;
+  text-align: center;
+  padding: 5%;
+  height: 600px;
+  background-color: gray;*/
+ 
+
+.head-text {
+    font-size: 40PX;
+    color: #fff;
+    font-family: Stonecross;
+    padding: 5%;
+}
+
+
+.game-box .backtext {
+    position: absolute;
+    padding: 5px 10px;
+    width: 100%;
+    background-color: #00000085;
+    z-index: 2;
+    color: #fff;
+    cursor: pointer;
+    transition: ease all 1s;
+    top: 100%;
+}
+
+
+.game-box {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+        margin-bottom: 15px;
+    /* border: 1px solid #fff; */
+    box-shadow: 2px 5px 8px #000;
+}
+
+.backtext .img-container{
+  z-index: 1;
+  position: relative;
+}
+
+.game-box:hover .backtext {
+  bottom: 0;
+  top: auto;
+}
+
+.videobox{
+  cursor: default;
+}
+
+.videobox .img-container{cursor: pointer;};
+.videobox .backtext{
+  top: 0;
+  width: 100%;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  background: transparent;
+}
+
+.videobox .backtext i{
+  color: #fffc;
+    font-size: 70px;
+    margin: auto;
+    color: #7997e1;
+}
+
+.videobox .backtext span{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.overlay-play-video{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  top: 0;
+  transition: ease all 0.3s;
+}
+.videobox .img-container:hover .overlay-play-video{
+  background: #0000009e;
+}
+
+.overlay-play-video i{
+  margin: auto;
+  font-size: 58px;
+  color: #8aacff;
+} 
+
+.videobox .bottomtext{
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  border-top: 1px solid #f0f0f0;
+}
+
+
+.videobox .bottomtext .buttons{
+  margin-left: auto;
+  margin-right: 0;
+}
+
+
+#multimedia-container video{
+  width: 100%;
+}
+
+body.activities .container{
+  position: relative;
+  z-index: 4;
+}
+
+ #picact + .container{
+  margin-top: -80px;
+ }
+
+ .panel{
+    padding: 15px 0;
+}
+
+#multimedia button[data-dismiss="modal"],
+#gamesinte button[data-dismiss="modal"]{
+      position: absolute;
+    top: 15px;
+    right: 15px;
+        z-index: 99;
+}
+
+
+#typing-it-wrapper .scoreboard{
+      width: 175px;
+}
+
+
+#typing-it-wrapper{
+      background-image: url(../../images/games/type-it-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#typing-it-wrapper .scoreWrap{
+  position: relative;
+}
+
+#typing-it-wrapper .timeWrap{
+  position: relative;
+}
+
+#typing-it-wrapper .score-div{
+  position: absolute;
+    top: 24px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 0;
+    color: #fff;
+}
+
+#typing-it-wrapper .time-div{
+  position: absolute;
+    top: 24px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 0;
+    color: #fff;
+}
+
+#typing-it-wrapper .outerWrap,
+#typing-it-wrapper.gamestart button.start,
+#typing-it-wrapper.gamestart .custom-select
+{
+  display: none;
+}
+
+#typing-it-wrapper.gamestart .outerWrap{
+  display: block;
+}
+
+
+#multimedia button.close,
+#gamesinte button.close
+{
+  padding: 0px;
+  color: #fff;
+  font-size: 65px;
+  opacity: 1;
+  top: 0;
+  box-shadow: none;
+  background: transparent;
+}
+
+.videobox .bottomtext .buttons span{
+  cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width : 768px) {
+    
+    #gamesinte{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    #gamesinte .modal-dialog{
+      max-width: 100%!important;
+      width: 100%!important;
+    }
+}
